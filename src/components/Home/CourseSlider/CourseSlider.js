@@ -2,7 +2,8 @@ import React from 'react';
 import './CourseSlider.css'
 import Grid from '@mui/material/Grid';
 import Box from '@mui/material/Box';
-
+import Banner1 from '../../../images/banner-img-1.png'
+import Banner2 from '../../../images/banner-img-2.png'
 import { Container } from "@mui/material";
 import { Link}  from "react-router-dom";
 const CourseSlider = () => {
@@ -22,7 +23,7 @@ const CourseSlider = () => {
                </Link>
              </div>
              <div className="card-img">
-               <img src='' alt="" />
+               <img src={Banner1} alt="" />
              </div>
              </div>
           </div>
@@ -38,7 +39,7 @@ const CourseSlider = () => {
                </Link>
              </div>
              <div className="card-img">
-               <img src='' alt="" />
+               <img src={Banner2} alt="" />
              </div>
              </div>
         </div>
